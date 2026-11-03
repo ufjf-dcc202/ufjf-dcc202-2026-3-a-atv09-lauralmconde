@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCC202 Exemplo03</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul>li {
+            border: 1px solid green;
+            background-color: lightgreen;
+        }
+
+        .desconstructed-pancake {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .desconstructed-pancake>* {
+            flex: 1 0 120px;
+        }
+
+        .sidebar-say {
+            display: grid;
+            grid-template-columns: minmax(9ch, 20%) 1fr;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <article class="sidebar-say">
+            <section>
+                <ul>
+                    <li>Lorem, ipsum.</li>
+                    <li>Animi, quia.</li>
+                    <li>Nam, nostrum.</li>
+                    <li>Totam, reiciendis!</li>
+                </ul>
+            </section>
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt exercitationem odit, aut, repellendus
+                quae
+                minus eveniet illo veniam explicabo pariatur sint, dolore id distinctio. Nisi dolore quisquam
+                laudantium
+                error. Sed?
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>
